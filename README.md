@@ -53,7 +53,7 @@ This project demonstrates the **complete ML lifecycle**:
 
 ## 📁 Project Structure
 
-Healthy_Diet_Analysis/
+Healthy_Diet_Analysis
 │
 ├── app.py              # Flask backend
 ├── train_model.py      # Model training & testing
