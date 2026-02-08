@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+
+    <style>
+        body {
+            background-color: #ffb347;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .card {
+            margin-top: 120px;
+            background-color: white;
+            display: inline-block;
+            padding: 30px 40px;
+            border-radius: 10px;
+        }
+
+        a {
+            display: block;
+            margin-top: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h2>Predicted Healthy Diet Cost</h2>
+    <h3>USD {{ prediction }}</h3>
+
+    <a href="/">Predict Again</a>
+</div>
+
+</body>
+</html>
