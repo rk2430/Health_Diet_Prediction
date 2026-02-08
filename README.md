@@ -51,17 +51,19 @@ This project demonstrates the **complete ML lifecycle**:
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-Healthy_Diet_Analysis
+Health_Diet_Prediction/
 │
-├── app.py              # Flask backend
-├── train_model.py      # Model training & testing
-├── model.joblib        # Saved ML model
-├── data.csv            # Dataset
 ├── .gitignore
 ├── README.md
+├── app.py # Flask backend application
+├── data.csv # Dataset used for training
+├── price_of_healthy_diet.ipynb # Notebook (exploratory data analysis / model building)
+├── requirements.txt # Python dependencies
+├── train.py # Model training & saving code
+├── model.joblib (generated) # Saved ML model file (not in repo)
 │
 └── templates/
-    ├── index.html      # Dashboard (input form)
-    └── result.html     # Prediction output
+├── index.html # Dashboard UI for user input
+└── result.html # Prediction result display
