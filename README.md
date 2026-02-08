@@ -64,4 +64,3 @@ Healthy_Diet_Analysis/
 └── templates/
 ├── index.html # Dashboard (input form)
 └── result.html # Prediction output
----
